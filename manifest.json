@@ -1,0 +1,11 @@
+{
+  "name": "Github Issues 2.1",
+  "version": "1.0",
+  "description": "Fleshing out Github Issues 2.0 with things I want.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*"],
+      "js": ["js/jquery.js", "js/common.js", "js/github.js", "js/pull.js"]
+    }
+  ]
+}
