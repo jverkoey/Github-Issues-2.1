@@ -1,0 +1,39 @@
+
+What this extension does
+========================
+
+Issues 2.0 is pretty sweet, but Pull Request haven't gotten any love.
+This extension attempts to narrow the gap. It adds the new issues header
+to the top of every pull request. It also adds the tags applied to the
+pull request on the right-hand side.
+
+Limitations
+-----------
+
+We can't modify labels, add pull requests to milestones, or assign
+pull requests from within a pull request yet.
+
+Known issues
+------------
+
+Making a pull request is currently completely broken when the extension
+is enabled, so you'll have to disable it temporarily when you make one.
+
+How to install this extension
+=============================
+
+It's pretty hacky, so you'll have to do some manual tweaking first.
+
+Open up js/common.js and modify the username to be your own.
+You might also need to update the assetHost value. You can get this
+by looking at any Github page's source while you're logged in.
+
+Once you've set your username, do the following in Chrome:
+
+* Tap the "wrench" icon in the toolbar.
+* Click Tools -> Extensions
+* Turn on Developer Mode
+* Click "Load unpacked extension..."
+* Select the githubissues2.1 folder
+* Enable the extension, and voila!
+
