@@ -2,9 +2,9 @@
 What this extension does
 ========================
 
-Issues 2.0 is pretty sweet, but Pull Request haven't gotten any love.
+Issues 2.0 is pretty sweet, but Pull Requests haven't gotten any love.
 This extension attempts to narrow the gap. It adds the new issues header
-to the top of every pull request. It also adds the tags applied to the
+to the top of every pull request page. It also adds the tags applied to the
 pull request on the right-hand side.
 
 Limitations
@@ -36,4 +36,12 @@ Once you've set your username, do the following in Chrome:
 * Click "Load unpacked extension..."
 * Select the githubissues2.1 folder
 * Enable the extension, and voila!
+
+Upcoming
+========
+
+This being my first attempt at a Chrome extension, there are a lot of things
+I don't know yet. From a bit more reading it looks like I can inject JS
+into pages a bit easier than what I'm currently attempting to do. I
+think I might use that for the next iteration.
 
