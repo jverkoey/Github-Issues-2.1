@@ -4,7 +4,7 @@
   "description": "Fleshing out Github Issues 2.0 with things I want.",
   "content_scripts": [
     {
-      "matches": ["https://github.com/*/*/pull/*"],
+      "matches": ["*://github.com/*/*/pull/*"],
       "js": ["js/jquery.js", "js/common.js", "js/github.js", "js/pull.js"]
     }
   ]

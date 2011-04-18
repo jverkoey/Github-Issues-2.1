@@ -2,7 +2,7 @@ var GitHub = {
   assetHost: 'https://d3nwyuy0nl342s.cloudfront.net'
 };
 
-var github_user = 'jverkoey';
+var github_user = '<your username here>';
 
 (function(a) {
     a.each(["backgroundColor", "borderBottomColor", "borderLeftColor", "borderRightColor", "borderTopColor", "color", "outlineColor"],
