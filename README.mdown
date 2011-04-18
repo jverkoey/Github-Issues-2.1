@@ -7,6 +7,10 @@ This extension attempts to narrow the gap. It adds the new issues header
 to the top of every pull request page. It also adds the tags applied to the
 pull request on the right-hand side.
 
+[![](/jverkoey/Github-Issues-2.1/blob/master/screenshots/pullrequests1.0.png)](/jverkoey/Github-Issues-2.1/blob/master/screenshots/pullrequests1.0.png)
+
+[![](/jverkoey/Github-Issues-2.1/blob/master/screenshots/pullrequests2.1.png)](/jverkoey/Github-Issues-2.1/blob/master/screenshots/pullrequests2.1.png)
+
 Limitations
 -----------
 
